@@ -1,0 +1,77 @@
+html {
+  min-height: 100%;
+}
+
+body {
+	
+	background: #b4ced8; /* fallback for old browsers */
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(#7696cd 0%, #8fb2e4 50%, #b0cff0 70%, #d7e5ec 90%, #dee0e7 100%) repeat scroll 0 0; /* Chrome 10-25, Safari 5.1-6 */
+	background: rgba(0, 0, 0, 0) linear-gradient(#7696cd 0%, #8fb2e4 50%, #b0cff0 70%, #d7e5ec 90%, #dee0e7 100%) repeat scroll 0 0; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.wishes:first-child {
+	margin: 10% auto 3%;
+}
+
+.wishes, .sender {
+	color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 40px;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(50, 50, 50, 0.3);
+    width: 80%;
+}
+
+.wishes h1 {
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.sender {
+    font-size: 21px;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.divider {
+	border-bottom: 2px dotted rgba(255,255,255,0.3);
+    margin: 3% auto 5%;
+    width: 60%;
+    max-width: 400px;
+}
+
+#clockdiv{
+	color: #fff;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#clockdiv .mobileBlock {
+	display: inline-block;
+}
+
+#clockdiv .mobileBlock > div{
+	display: inline-block;
+    padding: 10px 20px;
+    width: 100px;
+}
+
+#clockdiv div > span{
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	text-shadow: 0 2px 3px rgba(50, 50, 50, 0.3);
+}
+
+.smalltext{
+	color: #fff;
+	font-size: 13px;
+}
